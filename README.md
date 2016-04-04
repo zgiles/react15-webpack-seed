@@ -15,9 +15,9 @@ npm run ( dev | build )
 Modify the `webpack.**.js` as needed to include more loaders, etc.
 
 ## App Folder
-Again, the point here is to be a seed, not demo React. The app is useless, but it can demonstrate hot loading and entry point into the app.  
+The point here is to be a seed, not to demo React. The app is useless, but it can demonstrate hot loading and entry point into the app.  
 The entry point is the `index.html` template (yes, template.. just so you can put your root element, no templating engine, don't worry.), and the `index.jsx` file which is what should actually do your `ReactDOM.render`.  
-There are some folders in the app folder that I'm going to try and keep my differnet parts within, rather than just one mess in an `src` folder. It's not necessary though.
+There are some folders in the app folder that I'm going to try and keep my differnet parts within, rather than just one mess in an `src` folder. It's not necessary though.  
 
 ## Errata
 * `react-hot-api` will complain that it cant work with the latest version of React, yes, it's probably true, but seems to work anyway.. In the release version it wouldn't be used regardless, so in the worst case, we wont get hot until 15.0.0 comes out.
@@ -31,8 +31,8 @@ This example is based on several other examples, in part, many of whom did a rea
 and lots of documentation, etc ...  
 All the above related works are either MIT license or unspecified. I also did not copy directly any of their work, but based this on it.  I will present this repo under an MIT License as well. 
 
-## LICENSE
-License:
-MIT LICENSE
-Please see LICENSE file.
-This license applies to all files in this project unless otherwise noted.
+## LICENSE  
+License:  
+MIT LICENSE  
+Please see LICENSE file.  
+This license applies to all files in this project unless otherwise noted.  
