@@ -1,7 +1,7 @@
 {
   "name": "react15-webpack-seed",
   "version": "1.0.0",
-  "license": "MIT"
+  "license": "MIT",
   "dependencies": {
     "react": "^15.0.0-rc.2",
     "react-dom": "^15.0.0-rc.2"
