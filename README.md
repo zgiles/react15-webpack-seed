@@ -24,10 +24,10 @@ There are some folders in the app folder that I'm going to try and keep my diffe
 
 ## Related work
 This example is based on several other examples, in part, many of whom did a really swell job and I admire, but wanted to merge:
-* github.com/gaearon/react-hot-boilerplate
-* github.com/alicoding/react-webpack-babel
-* github.com/jamesknelson/webpack-black-triangle
-* github.com/fc-io/react-tape
+* github.com/gaearon/react-hot-boilerplate  
+* github.com/alicoding/react-webpack-babel  
+* github.com/jamesknelson/webpack-black-triangle  
+* github.com/fc-io/react-tape  
 and lots of documentation, etc ...  
 All the above related works are either MIT license or unspecified. I also did not copy directly any of their work, but based this on it.  I will present this repo under an MIT License as well. 
 
