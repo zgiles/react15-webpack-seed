@@ -7,12 +7,15 @@ Notice also that the app is in the folder "app", thus, you can just pull this re
 There are perhaps some more complicated ways to do things than what I'm doing, but I'd rather not. I know the `webpack.**.js` files have non-DRY code, but I'd rather do that and have a really functional build system than making a slice-and-dice build script.  
 
 ## How to use
+Pull this code into a new repo ( `git pull https://github.com/zgiles/react15-webpack-seed.git` ), which should bring in the commit history, and possible allow you to do merges later...  
+Then:  
 ```
 npm install
 npm run ( dev | build )
 ```
 
-Modify the `webpack.**.js` as needed to include more loaders, etc.
+Modify the `webpack.**.js` as needed to include more loaders, etc.  
+Build your app in the app folder  
 
 ## App Folder
 The point here is to be a seed, not to demo React. The app is useless, but it can demonstrate hot loading and entry point into the app.  
