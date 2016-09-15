@@ -5,7 +5,7 @@ var HtmlWebpackPlugin = require('html-webpack-plugin');
 
 module.exports = {
   entry: [
-    'webpack-dev-server/client?http://localhost:3000',
+    'webpack-dev-server/client?http://0.0.0.0:3000',
     'webpack/hot/only-dev-server',
     path.resolve(ROOT_PATH, 'app')
   ],
@@ -39,6 +39,7 @@ module.exports = {
     hot: true,
     progress: true,
     stats: 'error-only',
+    host: '0.0.0.0',
     port: 3000
   }
 };
