@@ -19,7 +19,6 @@ module.exports = {
       template: path.resolve(ROOT_PATH, 'app/index.html'),
       inject: true
     }),
-    new webpack.HotModuleReplacementPlugin(),
     new webpack.optimize.UglifyJsPlugin({
       compress: {
         warnings: false
@@ -35,7 +34,7 @@ module.exports = {
     loaders: [{
       test: /\.jsx?$/,
       exclude: /(node_modules|bower_components)/,
-      loaders: ["react-hot", "babel-loader"],
+      loaders: ["babel-loader"],
       include: path.resolve(ROOT_PATH, 'app')
     }]
   }
